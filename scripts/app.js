@@ -13,4 +13,7 @@ angular.module("todoListApp", [])
   $scope.helloWorld = function() {
     console.log("This is the Hello World inside the coolCtrl, not main ctrl!");
   }
-});;
+})
+  .controller('siblingCtrl', function($scope) {
+    $scope.foobar = 1234;
+});
